@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoop Scorer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div>
+        <h1>Points Scored:</h1>
+        <h2 id="count-el">0</h2>
+        <!-- Create an INCREMENT BUTTON with the id="increment-btn" -->
+        <button id="twoPoint-btn" onclick="increment(2)">2-Pointer</button>
+
+        <button id="threePoint-btn" onclick="increment(3)">3-Pointer</button>
+
+        <button id="freeThrow-btn" onclick="increment(1)">Free-Throw</button>
+        <br>
+        <br>
+        <!-- Create an SAVE BUTTON with the id="save-btn" -->
+        <button id="save-btn" onclick="save()">SAVE</button>
+
+        <!-- Create a 'Previous entries:' with the id="save-el" -->
+        <p id="save-el">Previous entries: </p>
+
+        <script src="passengerApp.js">
+        </script>
+    </div>
+</body>
+
+</html>

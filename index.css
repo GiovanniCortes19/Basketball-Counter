@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(0, 0, 0);
+  background-image: url("orangeBasketball.jpeg");
+  background-size: contain;
+  font-weight: bold;
+  color: aliceblue;
+  text-align: center;
+}
+
+div {
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+button:active {
+  /* background-color: #3e8e41; */
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#threePoint-btn {
+  background-color: darkred;
+}
+
+#threePoint-btn:hover {
+  cursor: pointer;
+  background-color: red !important;
+}
+
+#twoPoint-btn {
+  background-color: darkgreen;
+}
+
+#twoPoint-btn:hover {
+  cursor: pointer;
+  background-color: green !important;
+}
+
+#freeThrow-btn {
+  background-color: rgb(198, 156, 21);
+}
+
+#freeThrow-btn:hover {
+  cursor: pointer;
+  background-color: rgb(252, 200, 27) !important;
+}
+
+#save-btn {
+  background-color: rgb(0, 50, 214);
+}
