@@ -1,4 +1,4 @@
-# Basketball Scoring Counter
+# Basketball Scoring Tracker
 
 This is a scoring traker for all basketball type of shots.
 It will allow your gym partner to maintain the amount of shots and corresponding points for all of your shooting drills.
